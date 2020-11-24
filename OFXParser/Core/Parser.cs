@@ -185,6 +185,9 @@ namespace OFXParser
                             case "MEMO":
                                 transacaoAtual.Description = string.IsNullOrEmpty(meuXml.Value) ? "" : meuXml.Value.Trim().Replace("  ", " ");
                                 break;
+                            case "NAME":
+                                transacaoAtual.Name = string.IsNullOrEmpty(meuXml.Value) ? "" : meuXml.Value.Trim().Replace("  ", " ");
+                                break;
                         }
                     }
                 }

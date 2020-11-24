@@ -16,5 +16,6 @@ namespace OFXParser.Entities
 
         public long Checksum { get; set; }
 
+        public String Name { get; set; }
     }
 }

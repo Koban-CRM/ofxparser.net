@@ -10,7 +10,7 @@ namespace OFXParser.Test
         [TestMethod]
         public void TestMethod1()
         {
-            Extract extraxt = OFXParser.Parser.GetExtract("E:\\extract.ofx", new ParserSettings());
+            Extract extraxt = OFXParser.Parser.GetExtract(@"C:\NOCRM\LOCALPATH\TESTPATH\bankfile.ofx", new ParserSettings());
         }
     }
 }
